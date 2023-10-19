@@ -4,10 +4,12 @@ import {
   BoltIcon,
   ExclamationTriangleIcon,
 } from "@heroicons/react/24/outline";
+import Logo from "@/components/logo";
+
 export default function Home() {
   return (
-    <div className="flex h-screen flex-col items-center  justify-center px-2 text-white">
-      <h1 className="mb-20 text-5xl font-bold">Chat AI</h1>
+    <div className="flex h-screen flex-col items-center justify-center px-2 text-white">
+      <Logo className="mb-20" />
 
       <div className="flex flex-row space-x-2 text-center">
         <div className="">
