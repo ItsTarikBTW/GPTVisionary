@@ -5,6 +5,7 @@ import SideBar from "@/components/SideBar";
 import { getServerSession } from "next-auth";
 import { Provider } from "@/components/Provider";
 import Login from "@/components/Login";
+import ClientProvider from "@/components/ClientProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,7 @@ export default async function RootLayout({
                 <SideBar />
               </div>
               {/* notification/toast */}
-
+              <ClientProvider />
               <div className="flex-1 bg-[#343541]">{children}</div>
             </div>
           )}

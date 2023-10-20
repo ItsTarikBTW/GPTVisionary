@@ -14,7 +14,7 @@ function Login() {
         onClick={() => signIn("google")}
         className="animate-pulse text-2xl font-bold text-white my-2"
       >
-        sign IN
+        Sign IN
       </button>
     </div>
   );
